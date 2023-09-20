@@ -12,10 +12,12 @@ body {
 
 .bimImpar {
     background-color: lightgreen;
+    height: auto;
 }
 
 .bimPar {
     background-color: lightsalmon;
+    height: auto;
 }
 
 .logo {
