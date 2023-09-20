@@ -1,0 +1,239 @@
+
+#logo{
+    position: fixed;
+    height: 100px ;
+    top: auto;
+    left: 200000px;
+    display: inline-flex;
+   
+    margin-left: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.header {
+    font-size: 22px;
+    width: 100%;
+    background-color: black;
+    color: seashell;
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+
+
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+
+.menu li {
+    padding: 10px 20px 10px 20px;
+    text-decoration: underline;
+}
+
+
+
+
+.conteiner {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: helvetica;
+    position: relative;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+   
+}
+
+
+.fotoz {
+   
+    max-width: 100%;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+   
+}
+
+
+.texto {
+   
+    flex-wrap: wrap;
+    background-color: black;
+    position :absolute;
+    max-width: 100%;
+    width: 1200px;
+    top: 315px;
+    opacity: 0.9;
+    padding: 7px;
+   
+}
+
+
+#item1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#item2 {
+    display:flex;
+    justify-content: center;
+}
+
+
+.titulo {
+    margin-top: 50px;
+}
+
+
+.titulo2 {
+    margin-top: 20px;
+}
+
+
+.fotinhas {
+    display: inline-flex;
+
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+
+.legenda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.conteiner2 {
+   
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-family: helvetica;
+    position: relative;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    
+ }
+
+
+
+
+
+.xicara {
+    max-width: 100%;
+    width: 1200px;
+    height: 500px;
+    margin-top: 60px;
+    position: relative;
+    
+}
+
+
+.pai{
+    display: flex;
+    max-width: 100%;
+    width: 1150px;
+    top: 200px;
+    justify-content: center;
+    position: absolute;
+    
+    
+   
+   
+}
+
+
+.coisas {
+   
+    
+    display:inline-block;
+    max-width:100%;
+    width: 300px;
+    margin-right: 40px;
+    background-color: black;
+    opacity: 1;
+    
+      
+}
+
+.coisas1 {
+    
+    display:inline-block;
+    max-width:100%;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+
+
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    scroll-margin-block: 40px;
+   
+
+
+   
+}
+
+.conteiner2 h2{
+    z-index: 1;
+    left: 40%;
+    top: 25%;
+    position: absolute;
+    flex-wrap: wrap;
+
+}
+
+.ultimos{
+    padding-bottom: 25px;
+    
+}
+
+footer {
+    font-size: 22px;
+    font-family: helvetica;
+    width: 100%;
+    background-color: black;
+    color: seashell;
+    padding: 20px;
+}

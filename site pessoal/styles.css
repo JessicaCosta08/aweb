@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    font-size: 22px;
+    width: 100%;
+    background-color: black;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 3;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 200px;
+    height: 45px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: seashell;
+    cursor: pointer;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    text-decoration: none;
+
+    background: #333;
+    
+}
+
+.hero {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #13293D;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.hero img {
+    box-shadow: 0px 5px 20px #000000 ;
+    height: 630px;
+    margin-top: 10px;
+    max-width: 100%;
+    width: 400px;
+    margin: 2px;
+    padding-bottom: 2px;
+    border-radius: 30px;
+    
+}
+
+.texto {
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    color: seashell;
+}
+
+#item1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.apresentação {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.apresentação p {
+    font-size: 25px;
+    margin-top: 15px;
+    margin: 20px;
+}
+
+.botao {
+    display: block;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 170px;
+    font-size: 19px;
+    background: #011922;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.botao a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.botao:hover{
+    background-color:#063144;
+    transition: background 1s;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.pert{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card {
+    margin: 10px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#A5BEFA, #A5BEFA);
+    transition: all .5s;
+}
+
+.card:hover {
+    background-image: linear-gradient(#6AB7CC, #348297);
+}
+
+.card .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('./assets/Evelynn.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+
+.card .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+    color: black;
+}
+
+.card:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card:hover .img span {
+    font-size: 28px;
+}
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 260px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+}
+
+.card .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 20px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
+
+#ftcard1 {
+    background-image: url(./coisas/filho-unico.jpg);
+}
+
+#ftcard2 {
+    background-image: url(./coisas/altura.jpg);
+}
+
+
+#ftcard3 {
+    background-image: url(./coisas/cachorro.jpeg);
+}
+
+#ftcard4 {
+    background-image: url(./coisas/bike.jpg);
+}
+
+#ftcard5 {
+    background-image: url(./coisas/café.jpg);
+}
+.cabecalho{
+    margin-top: 50px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 10px 5px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+table {
+    width: 50%;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 5px 20px #000000 ;
+    cursor: pointer;
+
+}
+
+th {
+    background-color: #13293D;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #F7F5F5;
+}
+
+.fot {
+    width: 300px;
+    height: 200px;
+    display: inline-flex;
+    margin: 15px;
+    box-shadow: 0px 5px 20px #000000 ;
+    
+}
+
+.legenda {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hab {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #295872;
+    height: 100px;
+}
